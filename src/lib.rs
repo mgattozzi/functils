@@ -1,6 +1,7 @@
 //! Rust has really powerful generics that can be used to make it more functional in terms of it's
 //! composition. Included in this crate are helper functions often times used in languages like
 //! Haskell.
+#![allow(dead_code)]
 
 /// Given a Tuple return it's first element
 pub fn fst<T,A>(x:(T,A)) -> T {
