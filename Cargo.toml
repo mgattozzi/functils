@@ -1,0 +1,7 @@
+[package]
+name = "functils"
+version = "0.0.1"
+authors = ["Michael Gattozzi <mgattozzi@gmail.com>"]
+description = "Functions to make Rust more functional"
+
+[dependencies]
