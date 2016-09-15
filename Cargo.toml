@@ -4,5 +4,9 @@ version = "0.0.1"
 authors = ["Michael Gattozzi <mgattozzi@gmail.com>"]
 description = "Functions to make Rust more functional"
 license = "MIT"
+documentation = "https://docs.rs/functils"
+homepage = "https://github.com/mgattozzi/functils"
+repository = "https://github.com/mgattozzi/functils"
+readme = "README.md"
 
 [dependencies]
