@@ -2,6 +2,8 @@
 //! composition. Included in this crate are helper functions often times used in languages like
 //! Haskell.
 #![allow(dead_code)]
+extern crate kinder;
+pub mod list;
 
 // ReExporting traits for various stdlib items so that they can be used implicitly
 pub use std::iter::FromIterator;
@@ -27,19 +29,6 @@ pub fn ifte<A>(x: A, y: A, b:bool) -> A {
     if b { x } else { y }
 }
 
-/// Given a structure that can be indexed return it's first item if it exists and the rest of
-/// the structure without that item. If the first item does not exist a None value will be returned
-/// Since
-pub fn uncons<A, B>(x: A) -> Option<(B,A)>
-    where A: IntoIterator<Item = B> + FromIterator<B> {
-    let mut iter = x.into_iter();
-    if let Some(one) = iter.next() {
-        Some((one, iter.collect()))
-    } else {
-        None
-    }
-}
-
 #[test]
 fn fst_works() {
     assert_eq!(fst((1,"Hello")),1);
@@ -61,15 +50,4 @@ fn identity_works() {
 fn ifte_works() {
     assert_eq!(ifte("Hi","Bye", true), "Hi");
     assert_eq!(ifte("Hi","Bye", false), "Bye");
-}
-
-#[test]
-fn uncons_works() {
-    let vec = vec![1, 2, 3];
-    let vec_comp = vec![2, 3];
-    if let Some(x) = uncons(vec) {
-        x.eq(&(1,vec_comp));
-    } else {
-        assert_eq!(1,2);
-    }
 }
