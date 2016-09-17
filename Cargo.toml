@@ -1,6 +1,6 @@
 [package]
 name = "functils"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Michael Gattozzi <mgattozzi@gmail.com>"]
 description = "Functions to make Rust more functional"
 license = "MIT"
