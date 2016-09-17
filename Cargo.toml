@@ -10,4 +10,4 @@ repository = "https://github.com/mgattozzi/functils"
 readme = "README.md"
 
 [dependencies]
-kinder = { git = "https://github.com/KitFreddura/Kinder" }
+kinder = "0.1.1"
