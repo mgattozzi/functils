@@ -1,5 +1,10 @@
 Making Rust a little more functional.
 
+[![Build Status](https://travis-ci.org/mgattozzi/functils.svg?branch=master)](https://travis-ci.org/mgattozzi/functils)
+[![Dependency Status](https://dependencyci.com/github/mgattozzi/functils/badge)](https://dependencyci.com/github/mgattozzi/functils)
+[![codecov](https://codecov.io/gh/mgattozzi/functils/branch/master/graph/badge.svg)](https://codecov.io/gh/mgattozzi/functils)
+
+
 #How to use:
 
 Put this in your Cargo.toml file:
