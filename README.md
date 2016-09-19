@@ -4,6 +4,7 @@ Making Rust a little more functional.
 [![Dependency Status](https://dependencyci.com/github/mgattozzi/functils/badge)](https://dependencyci.com/github/mgattozzi/functils)
 [![codecov](https://codecov.io/gh/mgattozzi/functils/branch/master/graph/badge.svg)](https://codecov.io/gh/mgattozzi/functils)
 [![crates.io](https://img.shields.io/crates/v/functils.svg)](https://crates.io/crates/functils)
+[![Join the chat at https://gitter.im/functils/Lobby](https://badges.gitter.im/functils/Lobby.svg)](https://gitter.im/functils/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 #How to use:
 
