@@ -1,6 +1,7 @@
 Making Rust a little more functional.
 
 [![Build Status](https://travis-ci.org/mgattozzi/functils.svg?branch=master)](https://travis-ci.org/mgattozzi/functils)
+[![Build status](https://ci.appveyor.com/api/projects/status/509bk5q1juahy7gc?svg=true)](https://ci.appveyor.com/project/mgattozzi/functils)
 [![Dependency Status](https://dependencyci.com/github/mgattozzi/functils/badge)](https://dependencyci.com/github/mgattozzi/functils)
 [![codecov](https://codecov.io/gh/mgattozzi/functils/branch/master/graph/badge.svg)](https://codecov.io/gh/mgattozzi/functils)
 [![crates.io](https://img.shields.io/crates/v/functils.svg)](https://crates.io/crates/functils)
