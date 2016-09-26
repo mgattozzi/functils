@@ -29,7 +29,7 @@ each file.
 
 ## How can I contribute?
 Check out
-[CONTRIBUTING.md](https://github.com/mgattozzi/functils/branch/blob/master/CONTRIBUTING.md) for more information.
+[CONTRIBUTING.md](https://github.com/mgattozzi/functils/blob/master/CONTRIBUTING.md) for more information.
 
 
 ## License
