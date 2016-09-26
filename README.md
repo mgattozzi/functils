@@ -13,7 +13,7 @@ Put this in your Cargo.toml file:
 
 ```
 [dependencies]
-functils = "0.0.1"
+functils = "0.0.2"
 ```
 
 Then import with:
@@ -26,6 +26,11 @@ use functils::*
 It's recommended that the above code block be put into your crate root
 so you can use the methods everywhere without needing to import it in
 each file.
+
+## How can I contribute?
+Check out
+[CONTRIBUTING.md](https://github.com/mgattozzi/functils/branch/blob/master/CONTRIBUTING.md) for more information.
+
 
 ## License
 
