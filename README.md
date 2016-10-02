@@ -9,6 +9,8 @@ Making Rust a little more functional.
 
 #How to use:
 
+[![Join the chat at https://gitter.im/functils/Lobby](https://badges.gitter.im/functils/Lobby.svg)](https://gitter.im/functils/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Put this in your Cargo.toml file:
 
 ```
